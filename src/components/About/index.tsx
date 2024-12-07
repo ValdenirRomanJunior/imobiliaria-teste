@@ -33,11 +33,11 @@ const About = () => {
                    Todas as nossas visitas são acompanhadas, 
                    trazendo assim segurança do início ao fim, tanto no aluguel, quanto na venda.</p>
 
-                   <span>Ubaldovasconcelos@gmail.com</span>
-                   <span>Av. Cel. Francisco Cavalcante, Centro Ubajara</span>
+                   <span>imobiliariateste@teste.com</span>
+                   <span>Av. Cel. correia, Centro Ubajara</span>
                
                    <span>Ubajara - CE</span>
-                   <span>(88) 99317-02011</span>
+                   <span>(45) 98834-8165</span>
             </AnswerWrapper>
    
            

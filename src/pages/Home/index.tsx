@@ -1,16 +1,16 @@
 import Header from "../../components/Header";
 import { ContactModalContainerHome, HomeBannerWrapper, HomeBodyContainer, SessionAgent, SessionBannersBottom, SessionCards, SessionContact, SessionFooter, SessionQuestions, SessionSlides, SessionSlidesWrapper} from "./styles";
-import principalBanner from '../../assets/images/banner-principal-2.png';
-import principalBanner2 from '../../assets/images/banner-principal-2.png';
-import principalBannerMobile from '../../assets/images/banner-principal-2.png';
-import principalBanner2Mobile from '../../assets/images/banner-principal-2.png';
+import principalBanner from '../../assets/images/banner.png';
+import principalBanner2 from '../../assets/images/banner.png';
+import principalBannerMobile from '../../assets/images/banner.png';
+import principalBanner2Mobile from '../../assets/images/banner.png';
 import PseudoSearch from "../../components/PseudoSearch";
 import CardPropertyHome from "../../components/CardPropertyHome";
 import HouseImage from '../../assets/images/house-image.jpg';
 import RightHouseImage from '../../assets/images/right-image-house.svg';
-import logoHome from '../../assets/images/logo-branca-sem-fundo.png';
+import logoHome from '../../assets/images/logo-teste-2.png';
 import {FaArrowRight, FaQuoteLeft} from 'react-icons/fa';
-import AgentImage from '../../assets/images/perfil-corretor.png';
+import AgentImage from '../../assets/images/corretor.jpg';
 import {BsArrowRight} from 'react-icons/bs';
 import Question from "../../components/Question";
 import Footer from "../../components/Footer";
@@ -188,7 +188,7 @@ const Home = () => {
             <div className="text-agent-wrapper-home">
             <FaQuoteLeft className="quote-icon-agent-home"/>
             <h3>Você tem sonhos, eu tenho a chave da solução!</h3>
-            <p>CEO-Ubaldo Vasconcelos</p>
+            <p>CEO-Fábio Usman</p>
             </div>
 
             
@@ -203,7 +203,7 @@ const Home = () => {
               
             </div>
             </div>
-            <p className="agent-name">CEO-Ubaldo Vasconcelos</p>
+            <p className="agent-name">CEO-Fábio Usman</p>
             </div> 
           
            </SessionAgent>

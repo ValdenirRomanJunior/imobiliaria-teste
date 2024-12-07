@@ -1,5 +1,5 @@
 import { FooterContainer, LogoWrapper, SocialWrapper, TextWrapper } from "./styles";
-import Logo from '../../assets/images/logo-branca-sem-fundo.png';
+import Logo from '../../assets/images/logo-teste.png';
 import {SlSocialInstagram} from 'react-icons/sl';
 import {FaFacebookF} from 'react-icons/fa';
 import {MdWhatsapp} from 'react-icons/md'
@@ -15,14 +15,14 @@ const Footer = () => {
         <TextWrapper>
             <div className="copy-nameBusiness">
             <span> © 2024</span>
-            <span> Invest Imóveis- Negócios imobiliários</span>
+            <span> Imobiliária teste- Negócios imobiliários</span>
             </div>
             <span>CRECI 13694F</span>
         </TextWrapper>
         <SocialWrapper>
-        <a href="https://www.facebook.com/ubaldoneto/" ><FaFacebookF className="icon-social-footer"/></a>
-             <a href="https://www.instagram.com/imob_invest_ubj/"><SlSocialInstagram className="icon-social-footer"/></a>
-             <a href="https://api.whatsapp.com/send?phone=5588993170211"> <MdWhatsapp className="icon-social-footer"/></a>
+        <a href="https://www.facebook.com/profile.php?id=100075702506516" ><FaFacebookF className="icon-social-footer"/></a>
+             <a href="https://www.instagram.com/meustandi/"><SlSocialInstagram className="icon-social-footer"/></a>
+             <a href="https://api.whatsapp.com/send?phone=554588348165"> <MdWhatsapp className="icon-social-footer"/></a>
         </SocialWrapper>
        </FooterContainer>
     )

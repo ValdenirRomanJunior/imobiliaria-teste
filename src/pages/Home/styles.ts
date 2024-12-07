@@ -68,7 +68,7 @@ export const HomeBannerWrapper = styled.div<{icon:IconType}>`
     }
     .arrow-prev{
     background:#fff;
-      box-shadow:rgb(255 204 0) 0px 0px 10px -3px;
+      box-shadow:rgb(25 134 250);
       position: absolute;
       left:5%;
       top:45%;
@@ -79,7 +79,7 @@ export const HomeBannerWrapper = styled.div<{icon:IconType}>`
       max-height:37px;
       line-height: 37px;
       font-size:15px;
-      color:rgb(255 204 0);
+      color:rgb(25 134 250);
        border-radius:50%;
         padding:7px;
         cursor: pointer;
@@ -89,7 +89,7 @@ export const HomeBannerWrapper = styled.div<{icon:IconType}>`
 
     .arrow-next{
       background:#fff;
-      box-shadow:rgb(255 204 0) 0px 0px 10px -3px;
+      box-shadow:rgb(25 134 250);
       position: absolute;
       top:45%;
       right:5%;
@@ -100,7 +100,7 @@ export const HomeBannerWrapper = styled.div<{icon:IconType}>`
       max-height:37px;
       line-height: 37px;
       font-size:15px;
-      color:rgb(255 204 0);
+      color:rgb(25 134 250);
       border-radius:50%;
       padding:7px;
       cursor: pointer;
@@ -136,7 +136,7 @@ export const HomeBannerWrapper = styled.div<{icon:IconType}>`
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            top:50%;
+            top:40%;
 
           .principal-title{
             width: 20%;

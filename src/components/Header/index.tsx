@@ -2,7 +2,7 @@ import {HeaderContainer,HeaderWrapper,Hambuguer,MenuLogoWrapper,NavIcon,SideBarC
 
 import {Link, createSearchParams, useNavigate} from 'react-router-dom';
 import { useState } from 'react';
-import logo from '../../assets/images/logo-letras-pretas.png';
+import logo from '../../assets/images/logo-teste.png';
 import {GrFormClose} from 'react-icons/gr';
 import {BsTelephone} from 'react-icons/bs';
 import { MdWhatsapp } from 'react-icons/md';
@@ -64,7 +64,7 @@ const Header = ({onChange}:Prop) =>{
 
                 <TelephoneSideBarWrapper>                 
                     <BsTelephone className='telephone-icon-header'/>
-                   <span>(88) 99317-0211</span>
+                   <span>(45) 98834-8165</span>
                   
                 </TelephoneSideBarWrapper>
                 <Hambuguer onClick={showSidebar}>
@@ -96,7 +96,7 @@ const Header = ({onChange}:Prop) =>{
          
        
             <PhoneWrapper >
-            <a href='https://api.whatsapp.com/send?phone=5588993170211'><MdWhatsapp className='whatsapp-icon-sidebar'/><p className='description-icon'>(88) 99317-0211</p></a>
+            <a href='https://api.whatsapp.com/send?phone=554588348165'><MdWhatsapp className='whatsapp-icon-sidebar'/><p className='description-icon'>(45) 98834-8165</p></a>
             </PhoneWrapper>  
          
 
